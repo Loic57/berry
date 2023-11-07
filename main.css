@@ -1,5 +1,177 @@
-.test {
-  color: red;
+:root {
+  --primary-100: #458664;
+  --primary-200: #13b662;
+  --primary-300: #041a0f;
+  --primary-400: rgb(134, 119, 69);
+  --primary-500: #45866449;
+  --primary-600: #614586;
+  --primary-700: #5f8645;
+  --h1-font-size: 8rem;
+  --h1-line-height: 8.8rem;
+  --h2-font-size: 5.6rem;
+  --h2-line-height: 7.2rem;
+}
+
+.button {
+  font-size: 1.4rem;
+  padding: 0.8rem 1.2rem;
+}
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.6rem;
+    padding: 1.2rem 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .button {
+    font-size: 2em;
+    padding: 1.2rem 1.6rem;
+  }
+}
+
+.ap-heading--h1 {
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+}
+.ap-heading--h2 {
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
+}
+
+.ap-paragraph {
+  margin: 0;
+}
+.ap-paragraph--18 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.ap-paragraph--16 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.ap-paragraph--14 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.mb-12 {
+  margin-bottom: 1.2rem;
+}
+
+.mb-16 {
+  margin-bottom: 1.6rem;
+}
+
+.mb-24 {
+  margin-bottom: 2.4rem;
+}
+
+.mb-32 {
+  margin-bottom: 3.2rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mb-48 {
+  margin-bottom: 4.8rem;
+}
+
+@media (min-width: 768px) {
+  .mb-md-12 {
+    margin-bottom: 1.2rem;
+  }
+  .mb-md-16 {
+    margin-bottom: 1.6rem;
+  }
+  .mb-md-24 {
+    margin-bottom: 2.4rem;
+  }
+  .mb-md-32 {
+    margin-bottom: 3.2rem;
+  }
+  .mb-md-40 {
+    margin-bottom: 4rem;
+  }
+  .mb-md-48 {
+    margin-bottom: 4.8rem;
+  }
+}
+.mt-12 {
+  margin-top: 1.2rem;
+}
+
+.mt-16 {
+  margin-top: 1.6rem;
+}
+
+.mt-24 {
+  margin-top: 2.4rem;
+}
+
+.mt-32 {
+  margin-top: 3.2rem;
+}
+
+.mt-40 {
+  margin-top: 4rem;
+}
+
+.mt-48 {
+  margin-top: 4.8rem;
+}
+
+@media (min-width: 768px) {
+  .mt-md-12 {
+    margin-top: 1.2rem;
+  }
+  .mt-md-16 {
+    margin-top: 1.6rem;
+  }
+  .mt-md-24 {
+    margin-top: 2.4rem;
+  }
+  .mt-md-32 {
+    margin-top: 3.2rem;
+  }
+  .mt-md-40 {
+    margin-top: 4rem;
+  }
+  .mt-md-48 {
+    margin-top: 4.8rem;
+  }
+}
+.color-primary-100 {
+  color: var(--primary-100);
+}
+
+.color-primary-200 {
+  color: var(--primary-200);
+}
+
+.color-primary-300 {
+  color: var(--primary-300);
+}
+
+.color-primary-400 {
+  color: var(--primary-400);
+}
+
+.color-primary-500 {
+  color: var(--primary-500);
+}
+
+.color-primary-600 {
+  color: var(--primary-600);
+}
+
+.color-primary-700 {
+  color: var(--primary-700);
+}
+
+html {
+  font-size: 62.5%;
 }
 
 /*# sourceMappingURL=main.css.map */

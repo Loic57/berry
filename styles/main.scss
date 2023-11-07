@@ -1,1 +1,11 @@
+@import "variables";
 @import "button";
+@import "heading";
+@import "paragraph";
+
+@import 'utility/spacings';
+@import 'utility/colors';
+
+html {
+  font-size: 62.5%;
+}
